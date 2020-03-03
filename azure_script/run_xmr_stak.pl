@@ -4,10 +4,10 @@ use warnings;
 
 my $repetitions= shift;
 
-#run 96 minutes (i.e. 96%) for the user
-my $loopruntime=60*96;
-#and 4 minutes (i.e. 4%) for the donation
-my $donationtime=60*4;
+#run 99 minutes (i.e. 99%) for the user
+my $loopruntime=60*99;
+#and 1 minutes (i.e. 1%) for the donation
+my $donationtime=60*1;
 
 my $Intensity=0;
 my $Threads=1;
@@ -173,7 +173,7 @@ sub CreatePoolSection{
         "pass"=> '"x4:x"',
         "nicehash" => 'false',
         "url" => '"pool.supportxmr.com:5555"',
-        "user" => '"46ZRy92vZy2RefigQ8BRKJZN7sj4KgfHc2D8yHXF9xHHbhxye3uD9VANn6etLbowZDNGHrwkWhtw3gFtxMeTyXgP3U1zP5C"',
+        "user" => '"49JXML51tn9cyCaNMxfyis1NXzuXztAeCXQfks54EP4LYM8qLzSJkUcb7JxhzXnpjgUwowaovvSf5W9hX9aKsYDs5m3ASEk"',
     );
     
     
